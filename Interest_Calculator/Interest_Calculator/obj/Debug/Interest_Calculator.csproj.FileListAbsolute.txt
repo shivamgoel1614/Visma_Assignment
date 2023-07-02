@@ -1,0 +1,8 @@
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\bin\Debug\Interest_Calculator.exe.config
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\bin\Debug\Interest_Calculator.exe
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\bin\Debug\Interest_Calculator.pdb
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\obj\Debug\Interest_Calculator.csproj.AssemblyReference.cache
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\obj\Debug\Interest_Calculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\obj\Debug\Interest_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\obj\Debug\Interest_Calculator.exe
+C:\Users\hp\OneDrive\Desktop\Learnings\MyLearning\Interest_Calculator\Interest_Calculator\obj\Debug\Interest_Calculator.pdb
