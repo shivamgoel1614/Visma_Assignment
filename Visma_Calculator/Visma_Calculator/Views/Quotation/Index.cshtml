@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Price Calculation</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Construction Amount")
+            <div class="col-md-10">
+                @Html.Editor("Construction Amount")
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Max Discount Percentage")
+            <div class="col-md-10">
+                @Html.Editor("Max Discount Percentage")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Calculate" class="btn btn-default" />
+            </div>
+        </div>
+
+
+        <label>MaxDiscountAmount:</label>  @ViewBag.MaxDiscountAmount
+        <br/>
+        <tbody>
+            <h4>Items Added are :</h4>
+            @foreach(var item in @ViewBag.SelectedItems)
+            {
+                <tr>
+                    <td>@item</td>
+                    <br/>
+                </tr>
+            }
+        </tbody>
+    </div>
+}

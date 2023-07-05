@@ -1,0 +1,47 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Price Calculation</h1>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.Label("Total Amount")
+            <div class="col-md-10">
+                @Html.Editor("Total Amount")
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("VAT Percentage")
+            <div class="col-md-10">
+                @Html.Editor("VAT Percentage")
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.Label("Quantity")
+            <div class="col-md-10">
+                @Html.Editor("Quantity")
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Calculate" class="btn btn-default" />
+            </div>
+        </div>
+
+
+        <label>AmountExVat:</label>  @ViewBag.AmountExVat
+        <br/>
+        <label>PricePerItem:</label>  @ViewBag.PricePerItem
+        <br/>
+        <label>RoundingDifference:</label>  @ViewBag.RoundingDifference
+    </div>
+}
